@@ -68,6 +68,33 @@ a:hover {background-color: white;}
 	font-size: 20;
 }
 
+@media only screen and (max-width: 480px) {
+	.mytab{
+		font-size: 15px;
+	}
+	img{
+		width: 100px;
+		height: 70px;
+	}
+}
 
+@media only screen and (max-width: 1200px) {
+	.mytab{
+		font-size: 24px;
+	}
+	img{
+		width: 1000px;
+		height:800px;
+	}
+}
 
+@media only screen and (max-width: 850px) {
+	.mytab{
+		font-size: 24px;
+	}
+	img{
+		width: 750px;
+		height: 500px;
+	}
+}
 
